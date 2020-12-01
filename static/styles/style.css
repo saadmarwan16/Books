@@ -1,16 +1,23 @@
-/* .login {
-  float: right;
+/* .quote {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.sign-up {
-  float: right;
+.sign-up-link-container {
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+.nav-item {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .me {
   color: red;
-} */
+}
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'); */
 body{
   font-family: 'Poppins', sans-serif;
   font-size: 16px;

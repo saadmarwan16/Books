@@ -30,6 +30,13 @@ KEY = "UPxxlmKvhmOXvI07C5PQwA"
 @app.route("/")
 def index():
     # res = requests.get("https://www.goodreads.com/book/review_counts.json", params={"key": KEY, "isbns": "9781632168146"})
-    # return render_template("index.html")
-    # return render_template("index.html")
-    return render_template("layout.html")
+    return render_template("index.html")
+
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+
+@app.route('/sign-up')
+def sign_up():
+    return render_template("sign-up.html")
